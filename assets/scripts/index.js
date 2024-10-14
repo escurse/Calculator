@@ -32,4 +32,6 @@ $form.onsubmit = (e) => {
     url.searchParams.set('op', `${opVal}`);
     xhr.open('GET', url.toString());
     xhr.send();
+    $a.value = '';
+    $b.value = '';
 };
