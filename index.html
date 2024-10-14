@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>계산기</title>
+    <link rel="stylesheet" href="./assets/styles/index.css" type="text/css">
+    <script defer src="./assets/scripts/index.js" type="text/javascript"></script>
+</head>
+<body>
+<form id="form">
+    <span class="container">
+        <span class="inner-container">
+            <label class="label">
+                <input name="a" type="text" class="input">
+            </label>
+            <label class="label">
+                <select name="op" class="op">
+                    <option value="add">+</option>
+                    <option value="sub">-</option>
+                    <option value="mul">*</option>
+                    <option value="div">/</option>
+                    <option value="mod">%</option>
+                </select>
+            </label>
+        </span>
+        <span class="inner-container">
+        <label class="label">
+            <input name="b" type="text" class="input">
+        </label>
+        <button class="button" type="submit">계산하기</button>
+        </span>
+        <span class="text">계산하기 버튼을 클릭하세요.</span>
+    </span>
+</form>
+</body>
+</html>
